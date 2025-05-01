@@ -5,6 +5,45 @@ body {
     background: #f4f4f4;
     color: #333;
   }
+
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9; /* Highlight row on hover */
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  td, th {
+    cursor: default; /* Remove hand cursor */
+  }
   
   header {
     background: #007acc;
@@ -64,3 +103,32 @@ body {
   .resume a:hover {
     background-color: #005a99;
   }
+
+  img {
+    width: 200px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+    display: block; /* Make the image block-level */
+    margin: 0 auto; /* Center the image */
+  }
+
+  .experience {
+    margin-top: 40px;
+  }
+  
+  #experienceForm input,
+  #experienceForm textarea {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 8px;
+  }
+  
+  #experienceForm button {
+    padding: 6px 12px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  

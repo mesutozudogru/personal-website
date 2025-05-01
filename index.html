@@ -7,6 +7,14 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <h1>Welcome to Mesut's Website</h1>
+
+    <img src="images/IMG_3617.jpg" alt="Mesut's Photo" class="profile-photo" />
+ 
+  
+    
+  
+ 
   <header>
     <h1>Mesut</h1>
     <p>Software Test Engineer | Tech Enthusiast</p>
@@ -22,28 +30,71 @@
       <h2>Projects</h2>
       <ul>
         <li><strong>Automation Framework</strong> – Built a Selenium-based framework for regression testing.</li>
-        <li><strong>Proration Test Suite</strong> – Designed test cases for billing cycle and proration scenarios.</li>
-        <li><strong>Early Termination Fee Module</strong> – Validated date-sensitive charging with calendar logic.</li>
+        <li><strong>API Testing</strong> – Developed automated tests for RESTful APIs using Postman and Newman.</li>
+        <li><strong>Performance Testing</strong> – Conducted load testing using JMeter to ensure application scalability.</li>
+        <li><strong>CI/CD Integration</strong> – Integrated automated tests into Jenkins for continuous integration.</li>
+        <li><strong>Test Management</strong> – Managed test cases and defects using JIRA and TestRail.</li>
       </ul>
     </section>
+
+    <h2>Experience</h2>
+
+<!-- Experience Table -->
+<table id="carTable">
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Role</th>
+      <th>Year</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody id="carList">
+    <!-- Experience data will be inserted here -->
+  </tbody>
+</table>
+  
   
     <section class="resume">
       <h2>Resume</h2>
       <p><a href="mesut_ozudogru_Resume.pdf" download>📄 Download My Resume</a></p>
     </section>
+
+    <section class="contact-form">
+      <h2>Send Me a Message</h2>
+      <form id="messageForm">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+    
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+    
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea><br />
+    
+        <button type="submit">Send</button>
+      </form>
+      <p id="formResponse"></p>
+    </section>
   
     <section class="contact">
       <h2>Contact</h2>
       <ul>
-        <li>Email: mesut@example.com</li>
-        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></li>
+        <li>Email: mesutozudogru@yahoo.com</li>
+        <li>GitHub: <a href="https://github.com/mesutozudogru" target="_blank">GitHub</a></li>
+        <li>LinkedIn: <a href="www.linkedin.com/in/mesut-ozudogru" target="_blank">LinkedIn</a></li>
       </ul>
     </section>
   </main>
 
   <footer>
+    <p>Website created by Mesut using HTML, CSS, and JavaScript.</p>
+    <p>Last updated: May 2025</p>
     <p>© 2025 Mesut. All rights reserved.</p>
+
+
   </footer>
+     <!-- You should include the JavaScript at the bottom of the body -->
+     <script src="script.js"></script>
 </body>
 </html>
